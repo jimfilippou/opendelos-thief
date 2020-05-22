@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "name": "opendelos-thief",
   "version": "0.0.0",
   "license": "MIT",
