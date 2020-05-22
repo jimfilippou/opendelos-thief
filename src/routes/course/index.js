@@ -42,7 +42,7 @@ export default class Course extends Component {
         {course.lectures.map((lecture) => (
           <div class="mb-5">
             <p class="mb-2">
-              <b>Κεφάλαιο {lecture.section} </b>
+              <b>{lecture.section} </b>
               {lecture.title}
             </p>
             <code>

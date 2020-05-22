@@ -1,8 +1,6 @@
 import { h, Component } from "preact";
 import { route } from "preact-router";
 import TopAppBar from "preact-material-components/TopAppBar";
-import Dialog from "preact-material-components/Dialog";
-import Switch from "preact-material-components/Switch";
 import "preact-material-components/Switch/style.css";
 import "preact-material-components/Dialog/style.css";
 import "preact-material-components/TopAppBar/style.css";
@@ -28,22 +26,11 @@ export default class Header extends Component {
                 style={{ cursor: "pointer" }}
                 onClick={this.goHome}
               >
-                Home
+                Home <i class="fas fa-university"></i>
               </TopAppBar.Title>
             </TopAppBar.Section>
           </TopAppBar.Row>
         </TopAppBar>
-        <Dialog ref={this.dialogRef}>
-          <Dialog.Header>Settings</Dialog.Header>
-          <Dialog.Body>
-            <div>
-              Enable dark theme <Switch onClick={this.toggleDarkTheme} />
-            </div>
-          </Dialog.Body>
-          <Dialog.Footer>
-            <Dialog.FooterButton accept>OK</Dialog.FooterButton>
-          </Dialog.Footer>
-        </Dialog>
       </div>
     );
   }

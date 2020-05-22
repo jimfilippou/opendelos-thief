@@ -1,7 +1,7 @@
 .home {
-	padding: 20px;
-	min-height: 100%;
-	width: 100%;
+  padding: 20px;
+  min-height: unset;
+  width: 100%;
 }
 
 .cardHeader {

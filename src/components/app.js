@@ -5,6 +5,7 @@ import Header from "./header";
 import Home from "../routes/home";
 import Course from "../routes/course";
 import NotFound from "../routes/404";
+import Footer from "./footer/footer";
 // import Home from 'async!../routes/home';
 // import Profile from 'async!../routes/profile';
 
@@ -24,6 +25,7 @@ export default class App extends Component {
           <Course path="/course/:id" />
           <NotFound default />
         </Router>
+        <Footer />
       </div>
     );
   }

@@ -27,6 +27,7 @@
     "preact-cli": "^2.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.5.0",
     "preact": "^8.5.2",
     "preact-compat": "^3.17.0",
