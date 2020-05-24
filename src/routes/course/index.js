@@ -134,7 +134,7 @@ export default class Course extends Component {
             <button
               onClick={() =>
                 this.copyToClipboard(
-                  `curl -H "Referer: http://delos.aueb.gr/opendelos/player?rid=${lecture.code}" http://delos.aueb.gr/delosrc/resources/vl/${lecture.code}/${lecture.code}.mp4`
+                  `curl -H "Referer: http://delos.aueb.gr/opendelos/player?rid=${lecture.code}" http://delos.aueb.gr/delosrc/resources/vl/${lecture.code}/${lecture.code}.mp4 --output "${lecture.title}"`
                 )
               }
               class="btn btn-success"
