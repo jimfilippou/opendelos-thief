@@ -11,3 +11,19 @@
 .cardBody {
   padding: 16px;
 }
+
+.customCard {
+  padding: 20px;
+  border-radius: 10px !important;
+  transition: all ease-in-out 0.2s;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 15px !important;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 15px !important;
+  box-shadow: rgba(82, 58, 58, 0.1) 0 1px 15px !important;
+}
+
+.customCard:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px !important;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px !important;
+}

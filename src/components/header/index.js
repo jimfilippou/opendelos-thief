@@ -21,12 +21,24 @@ export default class Header extends Component {
       <div>
         <TopAppBar className="topappbar">
           <TopAppBar.Row>
-            <TopAppBar.Section>
+            <TopAppBar.Section style={{ justifyContent: "space-between" }}>
               <TopAppBar.Title
                 style={{ cursor: "pointer" }}
                 onClick={this.goHome}
               >
-                Home <i class="fas fa-university"></i>
+                <a href="#" class="text-white">
+                  Home<i class="pl-2 fas fa-university"></i>
+                </a>
+              </TopAppBar.Title>
+              <TopAppBar.Title class="pr-3" style={{ cursor: "pointer" }}>
+                <a
+                  href="https://github.com/jimfilippou/opendelos-thief"
+                  target="__blank"
+                  rel="noopener"
+                  class="text-white"
+                >
+                  Contribute<i class="pl-2 fab fa-github"></i>
+                </a>
               </TopAppBar.Title>
             </TopAppBar.Section>
           </TopAppBar.Row>
