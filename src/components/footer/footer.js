@@ -8,6 +8,9 @@ function Footer() {
         Created by{" "}
         <a href="https://jimfilippou.github.io" rel="noopener" target="__blank">
           Jim Filippou
+        </a>
+        <a href="https://github.com/konkalaitzidis" rel="noopener" target="__blank">
+          Kostas Kalaitzidis
         </a>{" "}
         &nbsp;
         <i class="fas fa-bolt"></i>
