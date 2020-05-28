@@ -3,6 +3,7 @@ import { route } from "preact-router";
 import Card from "preact-material-components/Card";
 import "preact-material-components/Card/style.css";
 import "preact-material-components/Button/style.css";
+import picsters from "../../assets/images/sponsors/picsters.png";
 import style from "./style";
 
 export default class Home extends Component {
@@ -110,6 +111,13 @@ export default class Home extends Component {
             </Card.ActionButton>
           </Card.Actions>
         </Card>
+
+        <h2 class="text-center my-5">Sponsors 🎉</h2>
+        <div class="d-flex justify-content-center">
+          <Card class={`${style.customCard}`}>
+            <img alt="PicSters" src={picsters} />
+          </Card>
+        </div>
       </div>
     );
   }
