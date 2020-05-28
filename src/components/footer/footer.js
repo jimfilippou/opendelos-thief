@@ -10,7 +10,7 @@ function Footer() {
           Jim Filippou
         </a>
         <a href="https://github.com/konkalaitzidis" rel="noopener" target="__blank">
-          Kostas Kalaitzidis
+            Kostas Kalaitzidis
         </a>{" "}
         &nbsp;
         <i class="fas fa-bolt"></i>
