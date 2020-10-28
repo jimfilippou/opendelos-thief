@@ -111,6 +111,21 @@ export default class Home extends Component {
             </Card.ActionButton>
           </Card.Actions>
         </Card>
+        <Card class={`${style.customCard}`}>
+          <div class={style.cardHeader}>
+            <h2 class="mdc-typography--title m-0">
+              Μαθηματικά Ι <i class="fas fa-square-root-alt"></i>
+            </h2>
+            <div class=" mdc-typography--caption">Σταύρος Τουμπής</div>
+          </div>
+          <Card.Actions>
+            <Card.ActionButton onClick={this.linkTo("/course/3119")}>
+              Προβολη &nbsp;<i class="far fa-eye"></i>
+            </Card.ActionButton>
+          </Card.Actions>
+        </Card>
+
+        
 
         <h2 class="text-center my-5">Sponsors 🎉</h2>
         <div class="d-flex justify-content-center">

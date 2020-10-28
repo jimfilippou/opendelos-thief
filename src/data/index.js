@@ -608,6 +608,12 @@ const courses = [
       },
     ],
   },
+  {
+    id: 3119,
+    name: "Μαθηματικά 1",
+    source: "delos",
+    "lectures": [{"title": "Διάλεξη 002 (Παρ. 1.1)", "author": null, "code": "2539ae8c"}, {"title": "Διάλεξη 004 (Παρ. 1.3)", "author": null, "code": "f7f1c01c"}, {"title": "Διάλεξη 005 (Παρ. 1.4)", "author": null, "code": "74948d1e"}, {"title": "Διάλεξη 006 (Παρ. 1.5)", "author": null, "code": "1580d98e"}, {"title": "Διάλεξη 007 (Παρ. 1.6-1.6.3)", "author": null, "code": "703b8a7"}, {"title": "Διάλεξη 003 (Παρ. 1.2)", "author": null, "code": "e05f87e0"}, {"title": "Διάλεξη 001 (Γενικές Πληροφορίες)", "author": null, "code": "1ba0b9b4"}]
+  }
 ];
 
 export default courses;
